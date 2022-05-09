@@ -6,7 +6,6 @@
   O que é</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#para-finalizar">🗺️ Funcionamento</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#configurando-o-docker">🚘 Inicialização</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#configurando-o-docker">🐋Docker</a>
 </p>
 
 
@@ -40,18 +39,4 @@ Após explicar como funciona a aplicação utilize esse comando para instalar as
 e para iniciar a nossa aplicação use o seguinte comando:
 ```sh
  npm run dev
-```
-## 🐳 Docker:
-
-O **Docker** inclui todas as dependências necessárias para executar a aplicação, cola esse comando no console para ter acesso a aplicação:
-```sh
- docker container run -d --name redis-plm2 -p 6379:6379 redis
-```
-Obs: Verifique se o **Container** iniciou corretamente usando:
-```sh
- docker ps
-```
-caso não seja o Container **redis-plm2**, digite no seu console:
-```sh
- docker start redis-plm2
 ```
